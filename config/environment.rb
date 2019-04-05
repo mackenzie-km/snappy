@@ -5,5 +5,6 @@ Bundle.new
 require 'require_all'
 require 'active_record'
 require 'sqlite3'
+require 'rake'
 
 require_all 'lib'

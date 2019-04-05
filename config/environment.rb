@@ -8,3 +8,7 @@ require 'sqlite3'
 require 'rake'
 
 require_all 'lib'
+
+DB = {
+:connection => SQLite3::Database.new(“db/igsm-attendance.sqlite”)
+}
